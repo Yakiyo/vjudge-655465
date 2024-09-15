@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+file="$1"
+
+if [ -z "$1" ]; then
+    echo "Missing file argument"
+    exit
+fi
+
+g++ -o "builds/$file.exe" "$file.cpp"
+
+bash -c "./builds/$file"
