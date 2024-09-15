@@ -11,4 +11,5 @@ int main() {
         std::cout << x + y;
     }
     std::cout << std::endl;
+    return 0;
 }
