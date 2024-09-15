@@ -1,0 +1,14 @@
+{
+    "boilerplat":{
+        "prefix": "mn",
+        "description": "Creates the boilerplate code for a new file",
+        "body": [
+            "#include <iostream>",
+            "",
+            "int main(){",
+            "",
+            "\treturn 0;",
+            "}"
+        ]
+    }
+}
