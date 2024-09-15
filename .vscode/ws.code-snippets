@@ -6,7 +6,7 @@
             "#include <iostream>",
             "",
             "int main(){",
-            "",
+            "\t${1}",
             "\treturn 0;",
             "}"
         ]
